@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16E2EBC619C821E6009DA0D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E2EBC519C821E6009DA0D8 /* Foundation.framework */; };
+		16E2EBC819C821E6009DA0D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E2EBC719C821E6009DA0D8 /* CoreGraphics.framework */; };
+		16E2EBCA19C821E6009DA0D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E2EBC919C821E6009DA0D8 /* UIKit.framework */; };
+		16E2EBD019C821E6009DA0D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16E2EBCE19C821E6009DA0D8 /* InfoPlist.strings */; };
+		16E2EBD219C821E6009DA0D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E2EBD119C821E6009DA0D8 /* main.m */; };
+		16E2EBD619C821E6009DA0D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E2EBD519C821E6009DA0D8 /* AppDelegate.m */; };
+		16E2EBD819C821E6009DA0D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16E2EBD719C821E6009DA0D8 /* Images.xcassets */; };
+		16E2EBDF19C821E6009DA0D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E2EBDE19C821E6009DA0D8 /* XCTest.framework */; };
+		16E2EBE019C821E6009DA0D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E2EBC519C821E6009DA0D8 /* Foundation.framework */; };
+		16E2EBE119C821E6009DA0D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E2EBC919C821E6009DA0D8 /* UIKit.framework */; };
+		16E2EBE919C821E6009DA0D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16E2EBE719C821E6009DA0D8 /* InfoPlist.strings */; };
+		16E2EBEB19C821E6009DA0D8 /* KuAiVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E2EBEA19C821E6009DA0D8 /* KuAiVideoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16E2EBE219C821E6009DA0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16E2EBBA19C821E5009DA0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16E2EBC119C821E6009DA0D8;
+			remoteInfo = KuAiVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16E2EBC219C821E6009DA0D8 /* KuAiVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuAiVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E2EBC519C821E6009DA0D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16E2EBC719C821E6009DA0D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16E2EBC919C821E6009DA0D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16E2EBCD19C821E6009DA0D8 /* KuAiVideo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KuAiVideo-Info.plist"; sourceTree = "<group>"; };
+		16E2EBCF19C821E6009DA0D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16E2EBD119C821E6009DA0D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16E2EBD319C821E6009DA0D8 /* KuAiVideo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KuAiVideo-Prefix.pch"; sourceTree = "<group>"; };
+		16E2EBD419C821E6009DA0D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16E2EBD519C821E6009DA0D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16E2EBD719C821E6009DA0D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16E2EBDD19C821E6009DA0D8 /* KuAiVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KuAiVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E2EBDE19C821E6009DA0D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		16E2EBE619C821E6009DA0D8 /* KuAiVideoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KuAiVideoTests-Info.plist"; sourceTree = "<group>"; };
+		16E2EBE819C821E6009DA0D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16E2EBEA19C821E6009DA0D8 /* KuAiVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KuAiVideoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16E2EBBF19C821E6009DA0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E2EBC819C821E6009DA0D8 /* CoreGraphics.framework in Frameworks */,
+				16E2EBCA19C821E6009DA0D8 /* UIKit.framework in Frameworks */,
+				16E2EBC619C821E6009DA0D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E2EBDA19C821E6009DA0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E2EBDF19C821E6009DA0D8 /* XCTest.framework in Frameworks */,
+				16E2EBE119C821E6009DA0D8 /* UIKit.framework in Frameworks */,
+				16E2EBE019C821E6009DA0D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16E2EBB919C821E5009DA0D8 = {
+			isa = PBXGroup;
+			children = (
+				16E2EBCB19C821E6009DA0D8 /* KuAiVideo */,
+				16E2EBE419C821E6009DA0D8 /* KuAiVideoTests */,
+				16E2EBC419C821E6009DA0D8 /* Frameworks */,
+				16E2EBC319C821E6009DA0D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16E2EBC319C821E6009DA0D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16E2EBC219C821E6009DA0D8 /* KuAiVideo.app */,
+				16E2EBDD19C821E6009DA0D8 /* KuAiVideoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16E2EBC419C821E6009DA0D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16E2EBC519C821E6009DA0D8 /* Foundation.framework */,
+				16E2EBC719C821E6009DA0D8 /* CoreGraphics.framework */,
+				16E2EBC919C821E6009DA0D8 /* UIKit.framework */,
+				16E2EBDE19C821E6009DA0D8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16E2EBCB19C821E6009DA0D8 /* KuAiVideo */ = {
+			isa = PBXGroup;
+			children = (
+				16E2EBD419C821E6009DA0D8 /* AppDelegate.h */,
+				16E2EBD519C821E6009DA0D8 /* AppDelegate.m */,
+				16E2EBD719C821E6009DA0D8 /* Images.xcassets */,
+				16E2EBCC19C821E6009DA0D8 /* Supporting Files */,
+			);
+			path = KuAiVideo;
+			sourceTree = "<group>";
+		};
+		16E2EBCC19C821E6009DA0D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16E2EBCD19C821E6009DA0D8 /* KuAiVideo-Info.plist */,
+				16E2EBCE19C821E6009DA0D8 /* InfoPlist.strings */,
+				16E2EBD119C821E6009DA0D8 /* main.m */,
+				16E2EBD319C821E6009DA0D8 /* KuAiVideo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16E2EBE419C821E6009DA0D8 /* KuAiVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				16E2EBEA19C821E6009DA0D8 /* KuAiVideoTests.m */,
+				16E2EBE519C821E6009DA0D8 /* Supporting Files */,
+			);
+			path = KuAiVideoTests;
+			sourceTree = "<group>";
+		};
+		16E2EBE519C821E6009DA0D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16E2EBE619C821E6009DA0D8 /* KuAiVideoTests-Info.plist */,
+				16E2EBE719C821E6009DA0D8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16E2EBC119C821E6009DA0D8 /* KuAiVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16E2EBEE19C821E6009DA0D8 /* Build configuration list for PBXNativeTarget "KuAiVideo" */;
+			buildPhases = (
+				16E2EBBE19C821E6009DA0D8 /* Sources */,
+				16E2EBBF19C821E6009DA0D8 /* Frameworks */,
+				16E2EBC019C821E6009DA0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KuAiVideo;
+			productName = KuAiVideo;
+			productReference = 16E2EBC219C821E6009DA0D8 /* KuAiVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16E2EBDC19C821E6009DA0D8 /* KuAiVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16E2EBF119C821E6009DA0D8 /* Build configuration list for PBXNativeTarget "KuAiVideoTests" */;
+			buildPhases = (
+				16E2EBD919C821E6009DA0D8 /* Sources */,
+				16E2EBDA19C821E6009DA0D8 /* Frameworks */,
+				16E2EBDB19C821E6009DA0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16E2EBE319C821E6009DA0D8 /* PBXTargetDependency */,
+			);
+			name = KuAiVideoTests;
+			productName = KuAiVideoTests;
+			productReference = 16E2EBDD19C821E6009DA0D8 /* KuAiVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16E2EBBA19C821E5009DA0D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.mengdongliuyaming;
+				TargetAttributes = {
+					16E2EBDC19C821E6009DA0D8 = {
+						TestTargetID = 16E2EBC119C821E6009DA0D8;
+					};
+				};
+			};
+			buildConfigurationList = 16E2EBBD19C821E5009DA0D8 /* Build configuration list for PBXProject "KuAiVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16E2EBB919C821E5009DA0D8;
+			productRefGroup = 16E2EBC319C821E6009DA0D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16E2EBC119C821E6009DA0D8 /* KuAiVideo */,
+				16E2EBDC19C821E6009DA0D8 /* KuAiVideoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16E2EBC019C821E6009DA0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E2EBD019C821E6009DA0D8 /* InfoPlist.strings in Resources */,
+				16E2EBD819C821E6009DA0D8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E2EBDB19C821E6009DA0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E2EBE919C821E6009DA0D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16E2EBBE19C821E6009DA0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E2EBD619C821E6009DA0D8 /* AppDelegate.m in Sources */,
+				16E2EBD219C821E6009DA0D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E2EBD919C821E6009DA0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E2EBEB19C821E6009DA0D8 /* KuAiVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16E2EBE319C821E6009DA0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16E2EBC119C821E6009DA0D8 /* KuAiVideo */;
+			targetProxy = 16E2EBE219C821E6009DA0D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16E2EBCE19C821E6009DA0D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16E2EBCF19C821E6009DA0D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16E2EBE719C821E6009DA0D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16E2EBE819C821E6009DA0D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16E2EBEC19C821E6009DA0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16E2EBED19C821E6009DA0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16E2EBEF19C821E6009DA0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KuAiVideo/KuAiVideo-Prefix.pch";
+				INFOPLIST_FILE = "KuAiVideo/KuAiVideo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16E2EBF019C821E6009DA0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KuAiVideo/KuAiVideo-Prefix.pch";
+				INFOPLIST_FILE = "KuAiVideo/KuAiVideo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		16E2EBF219C821E6009DA0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KuAiVideo.app/KuAiVideo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KuAiVideo/KuAiVideo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KuAiVideoTests/KuAiVideoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		16E2EBF319C821E6009DA0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KuAiVideo.app/KuAiVideo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KuAiVideo/KuAiVideo-Prefix.pch";
+				INFOPLIST_FILE = "KuAiVideoTests/KuAiVideoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16E2EBBD19C821E5009DA0D8 /* Build configuration list for PBXProject "KuAiVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16E2EBEC19C821E6009DA0D8 /* Debug */,
+				16E2EBED19C821E6009DA0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16E2EBEE19C821E6009DA0D8 /* Build configuration list for PBXNativeTarget "KuAiVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16E2EBEF19C821E6009DA0D8 /* Debug */,
+				16E2EBF019C821E6009DA0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16E2EBF119C821E6009DA0D8 /* Build configuration list for PBXNativeTarget "KuAiVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16E2EBF219C821E6009DA0D8 /* Debug */,
+				16E2EBF319C821E6009DA0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16E2EBBA19C821E5009DA0D8 /* Project object */;
+}
